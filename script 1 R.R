@@ -25,7 +25,6 @@ hist(iris$Petal.Length, col="green", main="Petal Length",
 hist(iris$Petal.Width, col="skyblue", main="Petal Width",
      xlab="Petal Width")
 
-?hist
 
 #### Diagramas de Cajas para 1 Variable.
 par(mfrow=c(1,1))
@@ -49,9 +48,7 @@ cor(iris$Petal.Length, iris$Petal.Width)
 ### Graficos de Dispersion entre todas las variables.
 plot(iris[,-5], col=iris$Species)
 
-###
-datos = read.table("BasePaises.csv", header = TRUE,
-           sep=";", dec=",", encoding = "latin1")
+
 
 
 
